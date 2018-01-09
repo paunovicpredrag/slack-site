@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Slack</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+	<script src="js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+	<div id="main-wrapper">
+		<header>
+			<div class="logo">
+				<img src="img/logo-dark-blue.png" alt="">
+			</div>
+			<ul>
+				<li>Product</li>
+				<li>Pricing</li>
+				<li>Support</li>
+				<li>Create a new team</li>
+				<li>Find your team</li>
+				<li class="button-signin"><input type="button" value="Sign in"></li>
+			</ul>
+			<ul class="menu-mobile">
+				<li class="download-slack">Download Slack</li>					
+				<li class="button-signin button-signin-mobile"><input type="button" value="Menu"></li>
+			</ul>
+			<div class="mobile-menu-full">
+				<div class="mobile-menu-img">
+					<img src="img/mobile-logo-purple.png" alt="">
+				</div>
+				<span class="close">X</span>
+				<div class="mobile-menu-h1">
+					<h1>Product</h1>
+					<h1>Pricing</h1>
+					<h1>Support</h1>
+					<h1>Download the Slack app</h1>	
+				</div>			
+			</div>
+		</header>
+<div class="clear"></div>
+		<section class="middle">
+			<div class="middle-wrapper">
+				<div class="work-happens">
+					<h1>Where work<span class="zvezda1">*</span> <br>
+					happens.</h1>
+				</div>
+				<div class="get-started">
+					<p><span class="zvezda2">*</span>Whatever work means for you, Slack brings all the pieces and <br>
+					people you need together so you can actually get things done.</p><br>
+					<input type="text" value="Email address">
+					<input type="button" value="Get Started"> <br><br>
+					<span>Already joined a Slack team? <span class="sign-in">Sign in</span></span>
+
+				</div>				
+			</div>
+				<div class="desni-banner">
+					<img src="img/illustration_wall.png" alt="">
+				</div>
+			<div class="img-mobile">
+				<img src="img/illos-mobile.png" alt="">
+			</div>
+		</section>
+		<p class="get-started-mobilep"><span class="zvezda2">*</span>Whatever work means for you, Slack brings all the pieces and 
+		people you need together so you can actually get things done.</p><br></p>
+<div class="clear"></div>
+
+		<div id="wrapper-1014">
+			<div class="sekcija-1-4-wrapper">
+				<div class="sekcija-1-4">
+					<ul>
+						<li class="li-zuta">USING SLACK</li>
+						<li class="li-zuta-podmeni">Product</li>
+						<li class="li-zuta-podmeni">Enterprise</li>
+						<li class="li-zuta-podmeni">Pricing</li>
+						<li class="li-zuta-podmeni">Support</li>
+						<li class="li-zuta-podmeni">Slack Guides</li>
+						<li class="li-zuta-podmeni">App Directory</li>
+						<li class="li-zuta-podmeni">API</li>
+					</ul>
+				</div>
+				<div class="sekcija-1-4">
+					<ul>
+						<li class="li-roza">SLACK <i class="fa fa-heart"></i></li>
+						<li class="li-roza-podmeni">Jobs</li>
+						<li class="li-roza-podmeni">Customers</li>
+						<li class="li-roza-podmeni">Developers</li>
+						<li class="li-roza-podmeni">Events</li>
+						<li class="li-roza-podmeni">Blog</li>
+						<li class="li-roza-podmeni">Podcast</li>
+						<li class="li-roza-podmeni">Slack Shop</li>
+					</ul>
+				</div>
+				<div class="sekcija-1-4">
+					<ul>
+						<li class="li-zelena">LEGAL</li>
+						<li class="li-zelena-podmeni">Privacy</li>
+						<li class="li-zelena-podmeni">Security</li>
+						<li class="li-zelena-podmeni">Terms of Service</li>
+						<li class="li-zelena-podmeni">Policies</li>						
+					</ul>
+				</div>
+				<div class="sekcija-1-4">
+					<ul>
+						<li class="li-plava">HANDY LINKS</li>
+						<li class="li-plava-podmeni">Download desktop app</li>
+						<li class="li-plava-podmeni">Download mobile app</li>
+						<li class="li-plava-podmeni">Brand Guidelines</li>
+						<li class="li-plava-podmeni">Slack at Work</li>
+						<li class="li-plava-podmeni">Status</li>					
+					</ul>
+				</div>
+			</div>
+		</div>
+<div class="clear"></div>
+
+		<footer>
+			<div id="footer-wrapper">
+				<div class="footer-logo">
+					<img src="img/footer-logo.png" alt="">
+				</div>
+				<div class="footer-contact">
+					<ul>
+						<li class="contact-us">Contact Us</li>
+						<li><i class="fa fa-twitter"></i></li>
+						<li><i class="fa fa-youtube-play"></i></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div> <!-- kraj main-wrapper-->
+
+<script>
+	$('#wrapper-1014 .sekcija-1-4-wrapper .sekcija-1-4 ul .li-zuta').on('click', function () {
+			$('#wrapper-1014 .sekcija-1-4-wrapper .sekcija-1-4 li').toggleClass('showing');
+		});
+	$('#wrapper-1014 .sekcija-1-4-wrapper .sekcija-1-4 ul .li-roza').on('click', function () {
+			$('#wrapper-1014 .sekcija-1-4-wrapper .sekcija-1-4 li').toggleClass('showing2');
+		});
+	$('#wrapper-1014 .sekcija-1-4-wrapper .sekcija-1-4 ul .li-zelena').on('click', function () {
+			$('#wrapper-1014 .sekcija-1-4-wrapper .sekcija-1-4 li').toggleClass('showing3');
+		});
+	$('#wrapper-1014 .sekcija-1-4-wrapper .sekcija-1-4 ul .li-plava').on('click', function () {
+			$('#wrapper-1014 .sekcija-1-4-wrapper .sekcija-1-4 li').toggleClass('showing4');
+		});
+
+	$('li.button-signin input[type="button"]').on('click', function () {
+			$('.mobile-menu-full').toggleClass('showing-mobile1');			
+		});
+	$('.mobile-menu-full .close').on('click', function () {
+			$('.mobile-menu-full').toggleClass('closing-mobile1');										
+		});		
+</script>
+</body>
+</html>
